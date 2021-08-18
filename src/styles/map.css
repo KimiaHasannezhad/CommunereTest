@@ -1,0 +1,113 @@
+/* .container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.add-location-elements{
+  width: 50%;
+} */
+
+.map-body {
+  height: 300px;
+  width: 30%;
+  box-shadow: 1px 5px 8px lightgray;
+}
+
+.form-item-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 50px;
+}
+
+.btn-section {
+  display: flex;
+  flex-direction: row;
+  width: 45%;
+  justify-content: flex-end;
+}
+
+.form-item-col {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+label {
+  font-size: 20px;
+  font-weight: 700;
+  margin: 10px;
+  width: 200px;
+}
+
+input {
+  width: 29%;
+  font-size: 17px;
+  box-shadow: 1px 5px 8px lightgrey;
+  border: 1px solid lightgray;
+  border-radius: 9px;
+  padding-left: 12px;
+  outline: none;
+}
+
+.select-logo {
+  padding: 12px 0px 5px 10px;
+}
+
+select {
+  box-shadow: 1px 5px 8px lightgrey;
+  border: 1px solid lightgray;
+  border-radius: 9px;
+  width: 30%;
+  outline: none;
+  font-size: 17px;
+}
+
+select option {
+  font-size: 17px;
+}
+
+button {
+  border: none;
+  padding: 10px 30px;
+  border-radius: 15px;
+  box-shadow: 1px 5px 8px rgb(235, 235, 235);
+  font-size: 14px;
+  letter-spacing: 3px;
+  margin: 5px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+button:hover {
+  box-shadow: 1px 5px 8px rgb(182, 182, 182);
+}
+
+#send-btn {
+  background-color: rgb(11, 170, 109);
+  color: aliceblue;
+}
+
+#send-btn:disabled {
+  opacity: 50%;
+  cursor: not-allowed;
+}
+
+#cancel-btn {
+  background-color: #da6a74;
+  color: aliceblue;
+}
+
+#set-location-btn {
+  border: none;
+  background-color: blueviolet;
+  /* width: 20px; */
+  font-size: 10px;
+  color: white;
+  letter-spacing: normal;
+}
+
+#map2{
+  height: 600px;
+  width: 60%;
+}
